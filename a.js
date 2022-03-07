@@ -1,10 +1,12 @@
+// script;
+
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 const xlen=canvas.width;
 const ylen=canvas.height;
 
-console.log('canvas size', canvas.width, canvas.height);
+// console.log('canvas size', canvas.width, canvas.height);
 
 function sfondo(){
     ctx.fillStyle = 'black';
